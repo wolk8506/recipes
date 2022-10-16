@@ -59,7 +59,7 @@ import meat_08 from '../img/meat_08.jpg';
 import meat_08_1 from '../img/meat_08_1.jpg';
 import meat_08_2 from '../img/meat_08_2.jpg';
 import meat_08_3 from '../img/meat_08_3.jpg';
-import cake_00 from '../img/load.gif';
+// import cake_00 from '../img/load.gif';
 
 export const data_meat = [
   {

@@ -1,6 +1,6 @@
 import zakuski_01 from '../img/zakuski_01.jpg';
 
-import cake_00 from '../img/load.gif';
+// import cake_00 from '../img/load.gif';
 
 export const data_zakuski = [
   {

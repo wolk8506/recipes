@@ -17,7 +17,7 @@ import salad_01_15 from '../img/salad_01_15.jpg';
 import salad_01_16 from '../img/salad_01_16.jpg';
 import salad_01_17 from '../img/salad_01_17.jpg';
 
-import cake_00 from '../img/load.gif';
+// import cake_00 from '../img/load.gif';
 
 export const data_salad = [
   {
