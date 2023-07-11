@@ -5,7 +5,7 @@ import s from '../../css/group.module.css';
 
 export const Zakuski = () => {
   const location = useLocation();
-  const ITEM_ID = Number(location.pathname.slice(9, 10)) - 1;
+  const ITEM_ID = Number(location.pathname.slice(9)) - 1;
   const item = data_zakuski[ITEM_ID];
 
   return (

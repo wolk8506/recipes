@@ -5,7 +5,7 @@ import s from '../../css/group.module.css';
 
 export const Cake = () => {
   const location = useLocation();
-  const CAKE_ID = Number(location.pathname.slice(7, 8)) - 1;
+  const CAKE_ID = Number(location.pathname.slice(7)) - 1;
   //   console.log(CAKE_ID);
   const cake = data_cake[CAKE_ID];
 

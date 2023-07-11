@@ -5,7 +5,7 @@ import s from '../../css/group.module.css';
 
 export const Sousy = () => {
   const location = useLocation();
-  const ITEM_ID = Number(location.pathname.slice(7, 8)) - 1;
+  const ITEM_ID = Number(location.pathname.slice(7)) - 1;
   const item = data_sousy[ITEM_ID];
 
   return (

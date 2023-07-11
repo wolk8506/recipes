@@ -5,7 +5,7 @@ import s from '../../css/group.module.css';
 
 export const Desert = () => {
   const location = useLocation();
-  const ITEM_ID = Number(location.pathname.slice(8, 9)) - 1;
+  const ITEM_ID = Number(location.pathname.slice(8)) - 1;
   const item = data_desert[ITEM_ID];
 
   return (

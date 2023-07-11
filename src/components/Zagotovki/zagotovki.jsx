@@ -5,7 +5,7 @@ import s from '../../css/group.module.css';
 
 export const Zagotovki = () => {
   const location = useLocation();
-  const ITEM_ID = Number(location.pathname.slice(11, 12)) - 1;
+  const ITEM_ID = Number(location.pathname.slice(11)) - 1;
   const item = data_zagotovki[ITEM_ID];
 
   return (

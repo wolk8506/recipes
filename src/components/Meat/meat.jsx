@@ -5,7 +5,7 @@ import s from './meats.module.css';
 
 export const Meat = () => {
   const location = useLocation();
-  const ITEM_ID = Number(location.pathname.slice(6, 7)) - 1;
+  const ITEM_ID = Number(location.pathname.slice(6)) - 1;
   //   console.log(CAKE_ID);
   const item = data_meat[ITEM_ID];
 
